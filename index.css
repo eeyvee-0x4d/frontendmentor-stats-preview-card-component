@@ -147,7 +147,7 @@ main {
 	opacity: 0.4;
 }
 
-@media only screen and (max-width: 1439px) {
+@media only screen and (max-width: 375px) {
 	main {
 		margin: 4rem 1rem;
 	}
@@ -179,7 +179,7 @@ main {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1440px) {
 
 	.card__content , .img-wrapper {
 		flex-basis: 50%;
