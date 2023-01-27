@@ -67,6 +67,11 @@ main {
 	border-radius: 1rem;
 }
 
+.card__content , .img-wrapper {
+		flex-basis: 50%;
+		flex-grow:  0;
+}
+
 .card__content {
 	padding: 0 4rem;
 	display: flex;
@@ -177,12 +182,4 @@ main {
     .card__img > * {
     	border-radius: 1rem 1rem 0 0;
     }
-}
-
-@media only screen and (max-width: 1440px) {
-
-	.card__content , .img-wrapper {
-		flex-basis: 50%;
-		flex-grow:  0;
-	}
 }
